@@ -1,0 +1,2651 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg8"
+   inkscape:export-filename="C:\Users\User\Desktop\dzem wisnia.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="dzemy.svg">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Tail"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Tail"
+       inkscape:isstock="true">
+      <g
+         transform="scale(-1.2)"
+         id="g885">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round"
+           d="M -3.8048674,-3.9585227 L 0.54352094,0"
+           id="path873" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round"
+           d="M -1.2866832,-3.9585227 L 3.0617053,0"
+           id="path875" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round"
+           d="M 1.3053582,-3.9585227 L 5.6537466,0"
+           id="path877" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round"
+           d="M -3.8048674,4.1775838 L 0.54352094,0.21974226"
+           id="path879" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round"
+           d="M -1.2866832,4.1775838 L 3.0617053,0.21974226"
+           id="path881" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round"
+           d="M 1.3053582,4.1775838 L 5.6537466,0.21974226"
+           id="path883" />
+      </g>
+    </marker>
+    <marker
+       inkscape:stockid="DistanceStart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DistanceStart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <g
+         id="g2300">
+        <path
+           id="path2306"
+           d="M 0,0 L 2,0"
+           style="fill:none;stroke:#ffffff;stroke-width:1.15;stroke-linecap:square" />
+        <path
+           id="path2302"
+           d="M 0,0 L 13,4 L 9,0 13,-4 L 0,0 z "
+           style="fill:#000000;fill-rule:evenodd;stroke:none" />
+        <path
+           id="path2304"
+           d="M 0,-4 L 0,40"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square" />
+      </g>
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path843" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="132.89939"
+     inkscape:cy="380.7159"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showguides="false"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2021"
+       transform="translate(-278.48012,-7.1228868)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect833"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text1493"><tspan
+           sodipodi:role="line"
+           id="tspan1491"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan1495">Truskawkowy</tspan></text>
+      <g
+         id="g1977"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path1971"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path1969"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text1967"><tspan
+             sodipodi:role="line"
+             id="tspan1965"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2010"
+       transform="translate(-96.005954,1.1339251)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect1497"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text1503"><tspan
+           sodipodi:role="line"
+           id="tspan1499"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan1501">Wiśniowy</tspan></text>
+      <g
+         id="g1997"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path1989"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path1987"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse1985"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="path1983"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text1981"><tspan
+             sodipodi:role="line"
+             id="tspan1979"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2041"
+       transform="translate(-278.48012,22.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2023"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2029"><tspan
+           sodipodi:role="line"
+           id="tspan2025"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2027">Truskawkowy</tspan></text>
+      <g
+         id="g2039"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2031"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2033"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2037"><tspan
+             sodipodi:role="line"
+             id="tspan2035"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2061"
+       transform="translate(-278.48012,52.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2043"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2049"><tspan
+           sodipodi:role="line"
+           id="tspan2045"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2047">Truskawkowy</tspan></text>
+      <g
+         id="g2059"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2051"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2053"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2057"><tspan
+             sodipodi:role="line"
+             id="tspan2055"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2081"
+       transform="translate(-278.48012,82.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2063"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2069"><tspan
+           sodipodi:role="line"
+           id="tspan2065"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2067">Truskawkowy</tspan></text>
+      <g
+         id="g2079"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2071"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2073"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2077"><tspan
+             sodipodi:role="line"
+             id="tspan2075"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2101"
+       transform="translate(-278.48012,112.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2083"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2089"><tspan
+           sodipodi:role="line"
+           id="tspan2085"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2087">Truskawkowy</tspan></text>
+      <g
+         id="g2099"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2091"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2093"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2097"><tspan
+             sodipodi:role="line"
+             id="tspan2095"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2121"
+       transform="translate(-278.48012,142.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2103"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2109"><tspan
+           sodipodi:role="line"
+           id="tspan2105"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2107">Truskawkowy</tspan></text>
+      <g
+         id="g2119"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2111"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2113"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2117"><tspan
+             sodipodi:role="line"
+             id="tspan2115"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2141"
+       transform="translate(-278.48012,172.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2123"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2129"><tspan
+           sodipodi:role="line"
+           id="tspan2125"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2127">Truskawkowy</tspan></text>
+      <g
+         id="g2139"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2131"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2133"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2137"><tspan
+             sodipodi:role="line"
+             id="tspan2135"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2161"
+       transform="translate(-208.48012,-7.1228868)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2143"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2149"><tspan
+           sodipodi:role="line"
+           id="tspan2145"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2147">Truskawkowy</tspan></text>
+      <g
+         id="g2159"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2151"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2153"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2157"><tspan
+             sodipodi:role="line"
+             id="tspan2155"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2181"
+       transform="translate(-208.48012,22.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2163"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2169"><tspan
+           sodipodi:role="line"
+           id="tspan2165"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2167">Truskawkowy</tspan></text>
+      <g
+         id="g2179"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2171"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2173"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2177"><tspan
+             sodipodi:role="line"
+             id="tspan2175"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2201"
+       transform="translate(-208.48012,52.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2183"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2189"><tspan
+           sodipodi:role="line"
+           id="tspan2185"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2187">Truskawkowy</tspan></text>
+      <g
+         id="g2199"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2191"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2193"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2197"><tspan
+             sodipodi:role="line"
+             id="tspan2195"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2221"
+       transform="translate(-208.48012,82.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2203"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2209"><tspan
+           sodipodi:role="line"
+           id="tspan2205"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2207">Truskawkowy</tspan></text>
+      <g
+         id="g2219"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2211"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2213"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2217"><tspan
+             sodipodi:role="line"
+             id="tspan2215"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2241"
+       transform="translate(-208.48012,112.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2223"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2229"><tspan
+           sodipodi:role="line"
+           id="tspan2225"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2227">Truskawkowy</tspan></text>
+      <g
+         id="g2239"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2231"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2233"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2237"><tspan
+             sodipodi:role="line"
+             id="tspan2235"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2261"
+       transform="translate(-208.48012,142.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2243"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2249"><tspan
+           sodipodi:role="line"
+           id="tspan2245"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2247">Truskawkowy</tspan></text>
+      <g
+         id="g2259"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2251"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2253"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2257"><tspan
+             sodipodi:role="line"
+             id="tspan2255"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2281"
+       transform="translate(-208.48012,172.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2263"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2269"><tspan
+           sodipodi:role="line"
+           id="tspan2265"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2267">Truskawkowy</tspan></text>
+      <g
+         id="g2279"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2271"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2273"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2277"><tspan
+             sodipodi:role="line"
+             id="tspan2275"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2301"
+       transform="translate(-138.48012,-7.1228868)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2283"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2289"><tspan
+           sodipodi:role="line"
+           id="tspan2285"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2287">Truskawkowy</tspan></text>
+      <g
+         id="g2299"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2291"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2293"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2297"><tspan
+             sodipodi:role="line"
+             id="tspan2295"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2321"
+       transform="translate(-138.48012,22.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2303"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2309"><tspan
+           sodipodi:role="line"
+           id="tspan2305"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2307">Truskawkowy</tspan></text>
+      <g
+         id="g2319"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2311"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2313"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2317"><tspan
+             sodipodi:role="line"
+             id="tspan2315"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2341"
+       transform="translate(-138.48012,52.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2323"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2329"><tspan
+           sodipodi:role="line"
+           id="tspan2325"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2327">Truskawkowy</tspan></text>
+      <g
+         id="g2339"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2331"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2333"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2337"><tspan
+             sodipodi:role="line"
+             id="tspan2335"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2361"
+       transform="translate(-138.48012,82.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2343"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2349"><tspan
+           sodipodi:role="line"
+           id="tspan2345"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2347">Truskawkowy</tspan></text>
+      <g
+         id="g2359"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2351"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2353"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2357"><tspan
+             sodipodi:role="line"
+             id="tspan2355"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2381"
+       transform="translate(-138.48012,112.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2363"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2369"><tspan
+           sodipodi:role="line"
+           id="tspan2365"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2367">Truskawkowy</tspan></text>
+      <g
+         id="g2379"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2371"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2373"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2377"><tspan
+             sodipodi:role="line"
+             id="tspan2375"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2401"
+       transform="translate(-138.48012,142.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2383"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2389"><tspan
+           sodipodi:role="line"
+           id="tspan2385"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2387">Truskawkowy</tspan></text>
+      <g
+         id="g2399"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2391"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2393"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2397"><tspan
+             sodipodi:role="line"
+             id="tspan2395"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2421"
+       transform="translate(-138.48012,172.87711)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#b40a00;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2403"
+         width="67.352844"
+         height="27.352844"
+         x="1.3235785"
+         y="1.3235785" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:4.86749px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.121688"
+         x="46.765186"
+         y="13.434685"
+         id="text2409"><tspan
+           sodipodi:role="line"
+           id="tspan2405"
+           x="46.765186"
+           y="13.434685"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="46.765186"
+           y="19.615818"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.121688"
+           id="tspan2407">Truskawkowy</tspan></text>
+      <g
+         id="g2419"
+         transform="matrix(1.2214871,0,0,1.2214871,-4.1173439,-3.9861239)">
+        <path
+           style="fill:#c92622;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 12.126272,14.194822 c -0.770272,1.311693 -1.479467,2.636629 0.189563,4.477239 l 6.076788,1.484768 c 1.662049,-0.02668 2.638378,-0.742434 2.878502,-2.197979 L 21.152931,11.610893 C 20.908653,10.598206 20.3469,9.822421 18.68492,9.8676326 l -1.938836,0.4630074 -0.0686,0.734826 1.73741,-0.06259 c -0.338456,1.323358 -1.234787,2.142167 -3.34541,1.862755 0.01536,1.739332 -0.717867,2.801639 -2.479387,2.933942 l 0.404804,-1.602637 z"
+           id="path2411"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 10.990218,14.258877 c -0.09,-1.532779 0.728754,-2.021869 1.876081,-2.1336 l 0.138023,-1.803738 1.804064,0.0044 c 0.470889,-1.1060808 1.032884,-1.5317721 2.20838,-1.397797 l -0.539576,2.070032 2.004353,0.07169 c -0.382973,1.182364 -0.968579,2.198112 -3.27843,1.7961 -0.725015,3.195434 -1.660945,2.650095 -2.546366,3.000597 L 13.0622,13.996642 Z"
+           id="path2413"
+           sodipodi:nodetypes="ccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="15.675915"
+           y="18.309925"
+           id="text2417"><tspan
+             sodipodi:role="line"
+             id="tspan2415"
+             x="15.675915"
+             y="18.309925"
+             style="stroke-width:0.264583">🍓</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2445"
+       transform="translate(-96.005954,31.133925)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2423"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2429"><tspan
+           sodipodi:role="line"
+           id="tspan2425"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2427">Wiśniowy</tspan></text>
+      <g
+         id="g2443"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2431"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2433"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2435"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2437"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2441"><tspan
+             sodipodi:role="line"
+             id="tspan2439"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2469"
+       transform="translate(-96.005954,61.133925)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2447"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2453"><tspan
+           sodipodi:role="line"
+           id="tspan2449"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2451">Wiśniowy</tspan></text>
+      <g
+         id="g2467"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2455"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2457"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2459"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2461"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2465"><tspan
+             sodipodi:role="line"
+             id="tspan2463"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2493"
+       transform="translate(-96.005954,91.133925)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2471"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2477"><tspan
+           sodipodi:role="line"
+           id="tspan2473"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2475">Wiśniowy</tspan></text>
+      <g
+         id="g2491"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2479"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2481"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2483"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2485"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2489"><tspan
+             sodipodi:role="line"
+             id="tspan2487"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2517"
+       transform="translate(-96.005954,121.13393)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2495"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2501"><tspan
+           sodipodi:role="line"
+           id="tspan2497"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2499">Wiśniowy</tspan></text>
+      <g
+         id="g2515"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2503"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2505"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2507"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2509"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2513"><tspan
+             sodipodi:role="line"
+             id="tspan2511"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2541"
+       transform="translate(-96.005954,151.13393)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2519"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2525"><tspan
+           sodipodi:role="line"
+           id="tspan2521"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2523">Wiśniowy</tspan></text>
+      <g
+         id="g2539"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2527"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2529"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2531"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2533"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2537"><tspan
+             sodipodi:role="line"
+             id="tspan2535"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2565"
+       transform="translate(-96.005954,181.13393)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2543"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2549"><tspan
+           sodipodi:role="line"
+           id="tspan2545"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2547">Wiśniowy</tspan></text>
+      <g
+         id="g2563"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2551"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2553"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2555"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2557"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2561"><tspan
+             sodipodi:role="line"
+             id="tspan2559"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2589"
+       transform="translate(-26.005954,1.1339251)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2567"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2573"><tspan
+           sodipodi:role="line"
+           id="tspan2569"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2571">Wiśniowy</tspan></text>
+      <g
+         id="g2587"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2575"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2577"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2579"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2581"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2585"><tspan
+             sodipodi:role="line"
+             id="tspan2583"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2613"
+       transform="translate(-26.005954,31.133925)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2591"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2597"><tspan
+           sodipodi:role="line"
+           id="tspan2593"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2595">Wiśniowy</tspan></text>
+      <g
+         id="g2611"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2599"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2601"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2603"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2605"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2609"><tspan
+             sodipodi:role="line"
+             id="tspan2607"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2637"
+       transform="translate(-26.005954,61.133925)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2615"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2621"><tspan
+           sodipodi:role="line"
+           id="tspan2617"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2619">Wiśniowy</tspan></text>
+      <g
+         id="g2635"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2623"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2625"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2627"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2629"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2633"><tspan
+             sodipodi:role="line"
+             id="tspan2631"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2661"
+       transform="translate(-26.005954,91.13393)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2639"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2645"><tspan
+           sodipodi:role="line"
+           id="tspan2641"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2643">Wiśniowy</tspan></text>
+      <g
+         id="g2659"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2647"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2649"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2651"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2653"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2657"><tspan
+             sodipodi:role="line"
+             id="tspan2655"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2685"
+       transform="translate(-26.005954,121.13393)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2663"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2669"><tspan
+           sodipodi:role="line"
+           id="tspan2665"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2667">Wiśniowy</tspan></text>
+      <g
+         id="g2683"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2671"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2673"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2675"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2677"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2681"><tspan
+             sodipodi:role="line"
+             id="tspan2679"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2709"
+       transform="translate(-26.005954,151.13393)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2687"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2693"><tspan
+           sodipodi:role="line"
+           id="tspan2689"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2691">Wiśniowy</tspan></text>
+      <g
+         id="g2707"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2695"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2697"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2699"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2701"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2705"><tspan
+             sodipodi:role="line"
+             id="tspan2703"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2733"
+       transform="translate(-26.005954,181.13393)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2711"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2717"><tspan
+           sodipodi:role="line"
+           id="tspan2713"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2715">Wiśniowy</tspan></text>
+      <g
+         id="g2731"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2719"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2721"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2723"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2725"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2729"><tspan
+             sodipodi:role="line"
+             id="tspan2727"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2757"
+       transform="translate(43.994046,1.1339251)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2735"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2741"><tspan
+           sodipodi:role="line"
+           id="tspan2737"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2739">Wiśniowy</tspan></text>
+      <g
+         id="g2755"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2743"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2745"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2747"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2749"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2753"><tspan
+             sodipodi:role="line"
+             id="tspan2751"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2781"
+       transform="translate(43.994046,31.133925)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2759"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2765"><tspan
+           sodipodi:role="line"
+           id="tspan2761"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2763">Wiśniowy</tspan></text>
+      <g
+         id="g2779"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2767"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2769"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2771"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2773"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2777"><tspan
+             sodipodi:role="line"
+             id="tspan2775"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2805"
+       transform="translate(43.994046,61.133925)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2783"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2789"><tspan
+           sodipodi:role="line"
+           id="tspan2785"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2787">Wiśniowy</tspan></text>
+      <g
+         id="g2803"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2791"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2793"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2795"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2797"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2801"><tspan
+             sodipodi:role="line"
+             id="tspan2799"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2829"
+       transform="translate(43.994046,91.13393)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2807"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2813"><tspan
+           sodipodi:role="line"
+           id="tspan2809"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2811">Wiśniowy</tspan></text>
+      <g
+         id="g2827"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2815"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2817"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2819"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2821"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2825"><tspan
+             sodipodi:role="line"
+             id="tspan2823"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2853"
+       transform="translate(43.994046,121.13393)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2831"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2837"><tspan
+           sodipodi:role="line"
+           id="tspan2833"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2835">Wiśniowy</tspan></text>
+      <g
+         id="g2851"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2839"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2841"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2843"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2845"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2849"><tspan
+             sodipodi:role="line"
+             id="tspan2847"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2877"
+       transform="translate(43.994046,151.13393)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2855"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2861"><tspan
+           sodipodi:role="line"
+           id="tspan2857"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2859">Wiśniowy</tspan></text>
+      <g
+         id="g2875"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2863"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2865"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2867"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2869"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2873"><tspan
+             sodipodi:role="line"
+             id="tspan2871"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2901"
+       transform="translate(43.994046,181.13393)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#940037;stroke-width:2.64715;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect2879"
+         width="67.352844"
+         height="27.352844"
+         x="97.329529"
+         y="0.18964991" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:5.09469px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.127368"
+         x="141.24345"
+         y="11.898756"
+         id="text2885"><tspan
+           sodipodi:role="line"
+           id="tspan2881"
+           x="141.24345"
+           y="11.898756"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368">Dżem </tspan><tspan
+           sodipodi:role="line"
+           x="141.24345"
+           y="18.368406"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold Italic';stroke-width:0.127368"
+           id="tspan2883">Wiśniowy</tspan></text>
+      <g
+         id="g2899"
+         transform="matrix(1.2569102,0,0,1.2569102,-28.971919,-3.4674915)">
+        <path
+           style="fill:#23c922;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.68519,12.830324 c 0.39104,-2.001819 -0.062,-3.5986858 -2.29554,-4.3413068 l -3.44081,-0.095473 c -0.053,1.2023984 -0.54633,2.0260458 0.37036,3.7004148 0.86742,0.873961 3.553,0.507508 5.36599,0.736365 z"
+           id="path2887"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#23c922;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 113.99642,14.423788 c -1.81367,-1.140496 -3.39795,-2.468563 -2.63106,-5.7191983 l -1.08269,4.9271743"
+           id="path2889"
+           sodipodi:nodetypes="ccc" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2891"
+           cx="90.84407"
+           cy="-73.494278"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <ellipse
+           style="fill:#940037;fill-opacity:1;stroke:none;stroke-width:1.00312;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 1.00312, 2.00624, 3.00936, 4.01247, 5.01558, 6.01872, 7.02183, 8.02494, 9.02808, 10.0312, 11.0343, 12.0374, 13.0406, 14.0436;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="ellipse2893"
+           cx="87.064293"
+           cy="-69.069687"
+           rx="2.6514354"
+           ry="3.1147819"
+           transform="rotate(47.000755)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Alata;-inkscape-font-specification:'Alata Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+           x="112.5852"
+           y="17.205025"
+           id="text2897"><tspan
+             sodipodi:role="line"
+             id="tspan2895"
+             x="112.5852"
+             y="17.205025"
+             style="stroke-width:0.264583">🍒</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "229741372933",
+    "firebase_url": "https://game-with-car-leaderboards-default-rtdb.firebaseio.com",
+    "project_id": "game-with-car-leaderboards",
+    "storage_bucket": "game-with-car-leaderboards.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229741372933:android:ef897f526963543e5d9e6c",
+        "android_client_info": {
+          "package_name": "com.KVBA.Gamewithcar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229741372933-t6mctf5el73dg5mvhjao4uakpjfr0bep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT2QlOrKLBoW4-Lapadwm0Mk1a3M7yWMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229741372933-t6mctf5el73dg5mvhjao4uakpjfr0bep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

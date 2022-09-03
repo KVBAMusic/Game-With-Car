@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Start
+  - CP1
+  - CP2
+  - Ice
+  - Terrain
+  - Track
+  - Deco
+  - CVA Trigger
+  - CVA Disable
+  - Car
+  - Car Body
+  - Base Car
+  - AGTrack
+  - AG Trigger
+  - Teleport
+  - Bot Checkpoint
+  - Braking Zone
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Car
+  - Obstacle
+  - Track
+  - Gate
+  - Refractive Glass
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
