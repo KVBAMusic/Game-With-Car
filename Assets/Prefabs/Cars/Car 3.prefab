@@ -439,15 +439,18 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7080461561706610403}
+  - component: {fileID: 821658903950430098}
   - component: {fileID: 7080461561706610402}
   - component: {fileID: 7080461561706610401}
-  - component: {fileID: 7080461561706610428}
-  - component: {fileID: 7080461561706610429}
+  - component: {fileID: 8001485408386986385}
   - component: {fileID: 5847216880524553999}
+  - component: {fileID: -2770738887965401464}
+  - component: {fileID: 4312428518059189839}
+  - component: {fileID: 7080461561706610429}
+  - component: {fileID: -3465948109448904964}
+  - component: {fileID: 7080461561706610428}
   - component: {fileID: 2971902172581461328}
   - component: {fileID: 2599962838218805440}
-  - component: {fileID: -2770738887965401464}
-  - component: {fileID: 8001485408386986385}
   m_Layer: 0
   m_Name: Car 3
   m_TagString: Car
@@ -476,6 +479,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &821658903950430098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7080461561706610400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21cc30ac1537bda4a92422d6fc9b663f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 7080461561706610402}
+  _playerMovement: {fileID: 7080461561706610401}
+  _aiController: {fileID: 8001485408386986385}
+  _carTimer: {fileID: 5847216880524553999}
+  _posTracker: {fileID: -2770738887965401464}
+  _lapTracker: {fileID: 4312428518059189839}
+  _gateTrigger: {fileID: 7080461561706610429}
+  _uiController: {fileID: -3465948109448904964}
+  _speedIndicator: {fileID: 7080461561706610428}
+  _engineSound: {fileID: 2971902172581461328}
 --- !u!54 &7080461561706610402
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -505,11 +530,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlable: 0
-  isAI: 0
   carName: OG Car
   carDescription: The very first modified cube
   carBody: {fileID: 6625407706383842072}
-  rb: {fileID: 7080461561706610402}
   rr: {fileID: 7080461560921307990}
   rl: {fileID: 7080461562002031241}
   fr: {fileID: 7080461560981188586}
@@ -530,7 +553,98 @@ MonoBehaviour:
   engineSound: {fileID: 2971902172581461328}
   positionCheckpoints: []
   botCheckpoint: 0
-  pt: {fileID: 0}
+--- !u!114 &8001485408386986385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7080461561706610400}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b673703e7bebc429376cf5466712ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: {fileID: 0}
+  waypointDistanceThreshold: 40
+  dotProductReverseThreshold: -0.2
+  turnSmoothingAmount: 2.8
+  sensorDistanceThreshold: 10
+  sensorDistanceOffset: 2
+  sensorDistanceSideOffset: 1
+  sensorSideAngle: 25
+  pm: {fileID: 7080461561706610401}
+--- !u!114 &5847216880524553999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7080461561706610400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac0aeaf03d35a14590024105448727b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalLapTime: 0
+  sector1Time: 0
+  sector2Time: 0
+  sector3Time: 0
+  practiceOffsetTime: 0
+--- !u!114 &-2770738887965401464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7080461561706610400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00521fabdabdc6745b2b12526b45cc54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lap: 0
+  checkpoint: 0
+  botCheckpoint: 0
+  distance: 0
+--- !u!114 &4312428518059189839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7080461561706610400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5dedb9d79a7034ebbe52a404454abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7080461561706610429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7080461561706610400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db85425fcf83af4abe31918207587c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effect: {fileID: 4349025120216842373}
+--- !u!114 &-3465948109448904964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7080461561706610400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae36fdc1989a7148aac581536517902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerUI: {fileID: 0}
 --- !u!114 &7080461561706610428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -545,38 +659,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   display: {fileID: 0}
   rt: {fileID: 0}
---- !u!114 &7080461561706610429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7080461561706610400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbe5a0c0e286f1b43a44b087e52be527, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lap: {fileID: 8300000, guid: f8cd32dd8aad5a141bb0d109bc589ea6, type: 3}
-  checkpointSound: {fileID: 8300000, guid: 49a6debb9e989e8479fe776afb9741dc, type: 3}
-  checkpoint: 0
-  practiceOffsetTime: 0
-  isAI: 0
-  currentLap: 1
-  position: 1
---- !u!114 &5847216880524553999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7080461561706610400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cffa49a6a50920d4897062a673d1971f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  effect: {fileID: 4349025120216842373}
 --- !u!82 &2971902172581461328
 AudioSource:
   m_ObjectHideFlags: 0
@@ -742,43 +824,6 @@ MonoBehaviour:
     - 0.5
     - 4.5
     - 2
---- !u!114 &-2770738887965401464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7080461561706610400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00521fabdabdc6745b2b12526b45cc54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lap: 0
-  checkpoint: 0
-  botCheckpoint: 0
-  distance: 0
---- !u!114 &8001485408386986385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7080461561706610400}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38b673703e7bebc429376cf5466712ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  path: {fileID: 0}
-  waypointDistanceThreshold: 40
-  dotProductReverseThreshold: -0.2
-  turnSmoothingAmount: 2.8
-  sensorDistanceThreshold: 10
-  sensorDistanceOffset: 2
-  sensorDistanceSideOffset: 1
-  sensorSideAngle: 25
-  pm: {fileID: 7080461561706610401}
 --- !u!1 &7080461561808619875
 GameObject:
   m_ObjectHideFlags: 0

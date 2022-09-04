@@ -2,24 +2,23 @@ using UnityEngine;
 
 public class ResetButton : MonoBehaviour
 {
-
-    GameObject[] cars;
+    CarBrain[] cars;
     private void Start()
     {
-        cars = GameObject.FindGameObjectsWithTag("Car");
+        cars = FindObjectsOfType<CarBrain>();
     }
 
     public void ResetCar()
     {
         foreach (var car in cars)
         {
-            var pm = car.GetComponent<PlayerMovement>();
+            var pm = car.CMovement;
             pm.ResetCar(true);
-            if (pm.isAI)
+            if (car.IsAI)
             {
-                car.GetComponent<BetterCarAIController>().ResetCar();
+                car.CAIController.ResetCar();
             }
-            car.GetComponent<CVATrigger>().ResetCar();
+            car.CGateTrigger.ResetCar();
 
         }
     }

@@ -470,15 +470,18 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7080461561706610403}
+  - component: {fileID: -4292384532085402540}
   - component: {fileID: 4762037224348586205}
   - component: {fileID: 9125475910101071323}
-  - component: {fileID: 1141521213214123648}
-  - component: {fileID: 327819154266438041}
+  - component: {fileID: -2796476675694598660}
   - component: {fileID: 3720064255081267931}
+  - component: {fileID: 7930029171674504910}
+  - component: {fileID: -2058725502057061179}
+  - component: {fileID: 327819154266438041}
+  - component: {fileID: 7209092694053907246}
+  - component: {fileID: 1141521213214123648}
   - component: {fileID: 6844015245303266342}
   - component: {fileID: 346830623392971274}
-  - component: {fileID: 7930029171674504910}
-  - component: {fileID: -2796476675694598660}
   m_Layer: 0
   m_Name: Car 7
   m_TagString: Car
@@ -507,6 +510,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &-4292384532085402540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7080461561706610400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21cc30ac1537bda4a92422d6fc9b663f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 4762037224348586205}
+  _playerMovement: {fileID: 9125475910101071323}
+  _aiController: {fileID: -2796476675694598660}
+  _carTimer: {fileID: 3720064255081267931}
+  _posTracker: {fileID: 7930029171674504910}
+  _lapTracker: {fileID: -2058725502057061179}
+  _gateTrigger: {fileID: 327819154266438041}
+  _uiController: {fileID: 7209092694053907246}
+  _speedIndicator: {fileID: 1141521213214123648}
+  _engineSound: {fileID: 6844015245303266342}
 --- !u!54 &4762037224348586205
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -536,11 +561,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlable: 0
-  isAI: 1
   carName: Drip
   carDescription: CAR GOT DRIP SHEEEESH
   carBody: {fileID: 2270616203229864922}
-  rb: {fileID: 4762037224348586205}
   rr: {fileID: 3647994213519340444}
   rl: {fileID: 2770600952275133333}
   fr: {fileID: 75860578786970353}
@@ -561,7 +584,98 @@ MonoBehaviour:
   engineSound: {fileID: 6844015245303266342}
   positionCheckpoints: []
   botCheckpoint: 0
-  pt: {fileID: 0}
+--- !u!114 &-2796476675694598660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7080461561706610400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b673703e7bebc429376cf5466712ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: {fileID: 0}
+  waypointDistanceThreshold: 40
+  dotProductReverseThreshold: -0.2
+  turnSmoothingAmount: 2.8
+  sensorDistanceThreshold: 10
+  sensorDistanceOffset: 2
+  sensorDistanceSideOffset: 1
+  sensorSideAngle: 25
+  pm: {fileID: 9125475910101071323}
+--- !u!114 &3720064255081267931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7080461561706610400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac0aeaf03d35a14590024105448727b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalLapTime: 0
+  sector1Time: 0
+  sector2Time: 0
+  sector3Time: 0
+  practiceOffsetTime: 0
+--- !u!114 &7930029171674504910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7080461561706610400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00521fabdabdc6745b2b12526b45cc54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lap: 0
+  checkpoint: 0
+  botCheckpoint: 0
+  distance: 0
+--- !u!114 &-2058725502057061179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7080461561706610400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5dedb9d79a7034ebbe52a404454abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &327819154266438041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7080461561706610400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db85425fcf83af4abe31918207587c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effect: {fileID: 7964104496882043008}
+--- !u!114 &7209092694053907246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7080461561706610400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae36fdc1989a7148aac581536517902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerUI: {fileID: 0}
 --- !u!114 &1141521213214123648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -576,38 +690,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   display: {fileID: 0}
   rt: {fileID: 0}
---- !u!114 &327819154266438041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7080461561706610400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbe5a0c0e286f1b43a44b087e52be527, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lap: {fileID: 8300000, guid: f8cd32dd8aad5a141bb0d109bc589ea6, type: 3}
-  checkpointSound: {fileID: 8300000, guid: 49a6debb9e989e8479fe776afb9741dc, type: 3}
-  checkpoint: 0
-  practiceOffsetTime: 0
-  isAI: 1
-  currentLap: 1
-  position: 1
---- !u!114 &3720064255081267931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7080461561706610400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cffa49a6a50920d4897062a673d1971f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  effect: {fileID: 7964104496882043008}
 --- !u!82 &6844015245303266342
 AudioSource:
   m_ObjectHideFlags: 0
@@ -773,43 +855,6 @@ MonoBehaviour:
     - 0.5
     - 4.5
     - 2
---- !u!114 &7930029171674504910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7080461561706610400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00521fabdabdc6745b2b12526b45cc54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lap: 0
-  checkpoint: 0
-  botCheckpoint: 0
-  distance: 0
---- !u!114 &-2796476675694598660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7080461561706610400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38b673703e7bebc429376cf5466712ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  path: {fileID: 0}
-  waypointDistanceThreshold: 40
-  dotProductReverseThreshold: -0.2
-  turnSmoothingAmount: 2.8
-  sensorDistanceThreshold: 10
-  sensorDistanceOffset: 2
-  sensorDistanceSideOffset: 1
-  sensorSideAngle: 25
-  pm: {fileID: 9125475910101071323}
 --- !u!1 &8107777436029649672
 GameObject:
   m_ObjectHideFlags: 0

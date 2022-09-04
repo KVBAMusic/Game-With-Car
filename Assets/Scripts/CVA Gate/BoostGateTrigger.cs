@@ -23,7 +23,7 @@ public class BoostGateTrigger : MonoBehaviour, IActionGate
 
     private void CVADirection_OnGateHit(object sender, EventArgs e)
     {
-        g.GetComponent<CVATrigger>().BoostGateHit(direction, euler);
+        g.GetComponent<ActionGateTrigger>().BoostGateHit(direction, euler);
         OnGateHit = null;
     }
 }

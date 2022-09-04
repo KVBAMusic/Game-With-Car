@@ -18,7 +18,7 @@ public class AntiGravTrigger : MonoBehaviour, IActionGate
 
     private void AntiGravTrigger_OnGateHit(object sender, EventArgs e)
     {
-        g.GetComponent<CVATrigger>().AGGateHit(activate, vfx);
+        g.GetComponent<ActionGateTrigger>().AGGateHit(activate, vfx);
         OnGateHit = null;
     }
 }

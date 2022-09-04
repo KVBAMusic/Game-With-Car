@@ -68,7 +68,7 @@ public class Menu : MonoBehaviour
     /// </summary>
     public void SetLaps()
     {
-        PlayerPrefs.SetFloat("Laps", laps.value);
+        PlayerPrefs.SetInt("Laps", (int)laps.value);
         laps_d.text = laps.value.ToString();
     }
 
@@ -77,7 +77,7 @@ public class Menu : MonoBehaviour
     /// </summary>
     public void SetBots()
     {
-        PlayerPrefs.SetFloat("Bots", bots.value);
+        PlayerPrefs.SetInt("Bots", (int)bots.value);
         bots_d.text = bots.value.ToString();
     }
 }

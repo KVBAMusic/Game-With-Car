@@ -18,7 +18,7 @@ public class TeleportTrigger : MonoBehaviour, IActionGate
 
     private void TeleportTrigger_OnGateHit(object sender, EventArgs e)
     {
-        g.GetComponent<CVATrigger>().TeleportGateHit(dest);
+        g.GetComponent<ActionGateTrigger>().TeleportGateHit(dest);
         OnGateHit = null;
     }
 }

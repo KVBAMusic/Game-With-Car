@@ -8,12 +8,11 @@ public class CheckpointSwitch : MonoBehaviour
         // Might change it in future
         if (PlayerPrefs.HasKey("Game Mode") && (Constants.GameMode)PlayerPrefs.GetInt("Game Mode") == Constants.GameMode.TimeAttack)
         {
-            PlayerMovement Car = GameObject.FindGameObjectWithTag("Car").GetComponent<PlayerMovement>();
-            TimerCheckpoints tc = GameObject.FindGameObjectWithTag("Car").GetComponent<TimerCheckpoints>();
-            Car.isInPractice = value;
+            CarBrain Car = GameObject.FindGameObjectWithTag("Car").GetComponent<CarBrain>();
+            Car.CMovement.isInPractice = value;
             Car.ResetCar();
-            if (value == true) Car.createCheckpoint();
-            else tc.practiceOffsetTime = 0;
+            if (value == true) Car.CMovement.createCheckpoint();
+            else Car.CTimer.practiceOffsetTime = 0;
         }
     }
 }

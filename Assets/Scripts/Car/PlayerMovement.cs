@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    CarBrain car;
+
     public bool controlable;
-    public bool isAI = false;
     public string carName, carDescription;
 
     // Input system stuff
@@ -14,7 +15,6 @@ public class PlayerMovement : MonoBehaviour
     public enum Axis { Horizontal, Vertical, Drift };
 
     public Renderer carBody;
-    public Rigidbody rb;
     public WheelCollider rr, rl, fr, fl;
 
     public Transform body, allWheels;
@@ -33,7 +33,6 @@ public class PlayerMovement : MonoBehaviour
     public bool isOnAntigrav = false;
     Vector3 respawnPosition, startPosition, localVelocity;
     Quaternion respawnRotation, startRotation;
-    TimerCheckpoints tc;
     float temp_vel, wheelRotationOffset;
     bool isResetting = false;
 
@@ -56,12 +55,12 @@ public class PlayerMovement : MonoBehaviour
     public AICheckpoint[] positionCheckpoints;
     public int botCheckpoint = 0;
     float resetTimer;
-    public PositionTracker pt;
 
-    Constants.GameMode gameMode;
+    
 
     private void Awake()
     {
+        car = GetComponent<CarBrain>();
         try
         {
             positionCheckpoints = GameObject.Find("Bot checkpoints").GetComponent<AICheckpoints>().checkpoints;
@@ -82,7 +81,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         int c;
-        if (isAI) c = UnityEngine.Random.Range(0, 14);
+        if (car.IsAI) c = UnityEngine.Random.Range(0, 14);
         else if (PlayerPrefs.HasKey("Car Colour")) c = PlayerPrefs.GetInt("Car Colour");
         else c = 0;
         carBody.material.color = CustomizationEncoder.GetColour(c);
@@ -94,16 +93,6 @@ public class PlayerMovement : MonoBehaviour
         {
             input = null;
         }
-        try
-        {
-            gameMode = (Constants.GameMode)PlayerPrefs.GetInt("Game Mode"); ;
-        }
-        catch (NullReferenceException)
-        {
-            Debug.LogWarning("No bot checkpoints in this scene.");
-            return;
-        }
-        pt = GetComponent<PositionTracker>();
     }
     // Input system stuff
 
@@ -140,10 +129,9 @@ public class PlayerMovement : MonoBehaviour
         downforce = stats.downforce;
 
         // Rigidbody stuff
-        rb.centerOfMass = new Vector3(0f, -0.2f, 0f);
+        car.CRigidbody.centerOfMass = new Vector3(0f, -0.2f, 0f);
 
         // Other stuff
-        tc = GetComponent<TimerCheckpoints>();
         try
         {
             carLoader = GameObject.Find("CarLoader").GetComponent<SceneLoaded>();
@@ -152,7 +140,7 @@ public class PlayerMovement : MonoBehaviour
 
 
         // Input system stuff
-        if (!isAI && input != null)
+        if (!car.IsAI && input != null)
         {
             input.input.Player.Reset.performed += ctx => ResetCar();
             input.input.Player.Drift.performed += ctx => UpdateAxis(ctx.ReadValue<float>(), Axis.Drift);
@@ -184,9 +172,9 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // If bot is barely moving for 3 seconds, reset its position.
-        if (isAI)
+        if (car.IsAI)
         {
-            if (rb.velocity.magnitude >= 0.1f)
+            if (car.CRigidbody.velocity.magnitude >= 0.1f)
             {
                 resetTimer = Time.time + 3;
             }
@@ -230,7 +218,7 @@ public class PlayerMovement : MonoBehaviour
             collider.GetWorldPose(out Vector3 pos, out Quaternion quat);
             wheel.SetPositionAndRotation(pos, quat);
         }
-        wheelRotationOffset += transform.InverseTransformDirection(rb.velocity).z * Time.deltaTime * Mathf.PI * 2;
+        wheelRotationOffset += transform.InverseTransformDirection(car.CRigidbody.velocity).z * Time.deltaTime * Mathf.PI * 2;
         wheel.localEulerAngles += new Vector3(wheelRotationOffset, 0);
         
     }
@@ -249,15 +237,15 @@ public class PlayerMovement : MonoBehaviour
     {
         if (controlable)
         {
-            temp_vel = rb.velocity.magnitude;
+            temp_vel = car.CRigidbody.velocity.magnitude;
             Vector3 temp_up = Vector3.up;
-            localVelocity = transform.InverseTransformDirection(rb.velocity);
+            localVelocity = transform.InverseTransformDirection(car.CRigidbody.velocity);
 
             // Calculate acceleration
             float cc = Mathf.Pow(.5f, 1f + maxSpeed / 120f); // set to .25f for max 120, .175f for max 160, .125f for max 240
             if (IsGroundedAny())
             {
-                rb.velocity += (3 + Mathf.Log((temp_vel * cc) + 1, .5f)) / 64 * acceleration * a_vertical * transform.forward * Time.deltaTime * accelRate;
+                car.CRigidbody.velocity += (3 + Mathf.Log((temp_vel * cc) + 1, .5f)) / 64 * acceleration * a_vertical * transform.forward * Time.deltaTime * accelRate;
             }
 
             Steer();
@@ -268,20 +256,20 @@ public class PlayerMovement : MonoBehaviour
                 if (IsGroundedAny())
                 {
                     temp_up = transform.up;
-                    rb.AddForce(-2000 * downforce * temp_up);
+                    car.CRigidbody.AddForce(-2000 * downforce * temp_up);
                 }
             }
             else
             {
                 temp_up = Vector3.up;
             }
-            rb.AddForce(-1f * downforce * temp_vel * transform.up);
+            car.CRigidbody.AddForce(-1f * downforce * temp_vel * transform.up);
 
             // Brake, when pressing the key that's opposite to the direction of movement
 
             if (localVelocity.z * a_vertical < 0 && IsGroundedAny()) 
             { 
-                rb.velocity += brakeTorque * localVelocity.normalized.z * Time.deltaTime * -transform.forward; 
+                car.CRigidbody.velocity += brakeTorque * localVelocity.normalized.z * Time.deltaTime * -transform.forward; 
             }
 
             // Reverse
@@ -289,10 +277,10 @@ public class PlayerMovement : MonoBehaviour
             else if (a_vertical == -1) reversing = true;
 
             // If no keys in vertical axis are pressed, slowly deccelerate
-            if (a_vertical == 0) rb.velocity *= idleDecceleration;
+            if (a_vertical == 0) car.CRigidbody.velocity *= idleDecceleration;
 
             // Apply custom gravity
-            rb.AddForce(-9.81f * rb.mass * temp_up);
+            car.CRigidbody.AddForce(-9.81f * car.CRigidbody.mass * temp_up);
             
             // Drift
             if (IsGroundedAny())
@@ -332,7 +320,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (a_horizontal != 0) h = Mathf.MoveTowards(h, a_horizontal, Time.deltaTime * (1 / turnSmoothTime));
         else h = 0;
-        float i = rb.velocity.magnitude / 50;
+        float i = car.CRigidbody.velocity.magnitude / 50;
         fr.steerAngle = (Mathf.LerpUnclamped(maxSteerAngle, minSteerAngle, i)) * h * 2;
         fl.steerAngle = (Mathf.LerpUnclamped(maxSteerAngle, minSteerAngle, i)) * h * 2;
         if (isDrifting)
@@ -355,20 +343,18 @@ public class PlayerMovement : MonoBehaviour
                 }
                 else
                 {
-                    if (rb != null) // this is a workaround to a problem with new input system
+                    if (car.CRigidbody != null) // this is a workaround to a problem with new input system
                     {
-                        rb.velocity = Vector3.zero;
-                        rb.angularVelocity = Vector3.zero;
+                        car.CRigidbody.velocity = Vector3.zero;
+                        car.CRigidbody.angularVelocity = Vector3.zero;
                     }
                     engineSound.pitch = 1f;
-                    if (gameMode == Constants.GameMode.TimeAttack || fullReset)
+                    if (car.gameMode == Constants.GameMode.TimeAttack || fullReset)
                     {
                         isOnAntigrav = false;
-                        if (rb != null) rb.isKinematic = true;
+                        if (car.CRigidbody != null) car.CRigidbody.isKinematic = true;
                         controlable = false;
                         engineSound.pitch = 1;
-                        tc.ResetTimer();
-                        pt.ResetCar();
                         carLoader.StartCoroutine(carLoader.ResetCountDown());
                         botCheckpoint = 0;
                         transform.SetPositionAndRotation(startPosition, startRotation);
@@ -385,9 +371,9 @@ public class PlayerMovement : MonoBehaviour
     // Used in Single Race mode
     private void OnTriggerEnter(Collider other)
     {
-        if (gameMode == Constants.GameMode.SingleRace)
+        if (car.gameMode == Constants.GameMode.SingleRace)
         {
-            if (other.gameObject.CompareTag("Start") && tc.checkpoint == 3)
+            if (other.gameObject.CompareTag("Start") && car.CPosition.checkpoint == 3)
             {
                 botCheckpoint = -1;
             }
@@ -410,7 +396,7 @@ public class PlayerMovement : MonoBehaviour
     private void CheckpointResetCar()
     {
         Transform _Checkpoint = transform;
-        Rigidbody _Vels = rb;
+        Rigidbody _Vels = car.CRigidbody;
         if (hasCustomCheckpoint)
         {
             _Checkpoint.SetPositionAndRotation(customCheckpointPosition, customCheckpointRotation);
@@ -432,32 +418,32 @@ public class PlayerMovement : MonoBehaviour
         fl.motorTorque = motorTorques[1];
         rr.motorTorque = motorTorques[2];
         rl.motorTorque = motorTorques[3];
-        rb.velocity = _Vels.velocity;
-        rb.angularVelocity = _Vels.angularVelocity;
-        if (!isAI) tc.StartCoroutine(tc.SetSavedTimes(savedTime));
+        car.CRigidbody.velocity = _Vels.velocity;
+        car.CRigidbody.angularVelocity = _Vels.angularVelocity;
+        if (!car.IsAI) car.CTimer.StartCoroutine(car.CTimer.SetSavedTimes(savedTime));
     }
     //Practice mode
     public void createCheckpoint(bool isCustom = false)
     {
         if (controlable && isInPractice)
         {
-            currentCheckpoint = tc.GetCurrentChechpoint();
-            savedTime = tc.GetCurrentTime();
+            currentCheckpoint = car.CPosition.checkpoint;
+            savedTime = car.CTimer.GetCurrentTime();
             if (isCustom)
             {
                 hasCustomCheckpoint = true;
                 customCheckpointPosition = transform.position;
                 customCheckpointRotation = transform.rotation;
-                savedVelocityCustom = rb.velocity;
-                savedAngularVelocityCustom = rb.angularVelocity;
+                savedVelocityCustom = car.CRigidbody.velocity;
+                savedAngularVelocityCustom = car.CRigidbody.angularVelocity;
             }
             else
             {
                 hasCustomCheckpoint = false;
                 levelCheckpointPosition = transform.position;
                 levelCheckpointRotation = transform.rotation;
-                savedVelocityLevel = rb.velocity;
-                savedAngularVelocityLevel = rb.angularVelocity;
+                savedVelocityLevel = car.CRigidbody.velocity;
+                savedAngularVelocityLevel = car.CRigidbody.angularVelocity;
             }
             motorTorques[0] = fr.motorTorque;
             motorTorques[1] = fl.motorTorque;

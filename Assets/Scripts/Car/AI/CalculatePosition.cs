@@ -27,9 +27,7 @@ public class CalculatePosition : MonoBehaviour
 
         for(int i = 0; i < final.Length; i++)
         {
-            var tc = final[i].gameObject.GetComponent<TimerCheckpoints>();
             final[i].place = i + 1;
-            tc.position = i + 1;
         }
     }
 }

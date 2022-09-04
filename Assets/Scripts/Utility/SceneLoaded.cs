@@ -15,7 +15,7 @@ public class SceneLoaded : MonoBehaviour
 
     private void Awake()
     {
-        float botCount = PlayerPrefs.GetFloat("Bots");
+        float botCount = PlayerPrefs.GetInt("Bots");
         // playerStartPosition = Random.Range(0, botCount);
         CarLoader cl = GetComponent<CarLoader>();
         ac = FindObjectOfType<AudioController>();
@@ -33,13 +33,11 @@ public class SceneLoaded : MonoBehaviour
                 {
                     if (PlayerPrefs.HasKey("Car Model") && PlayerPrefs.HasKey("Engine"))
                         car = cl.GetCarPrefab(PlayerPrefs.GetInt("Car Model"), PlayerPrefs.GetInt("Engine"), false, false);
-                    else car = cl.GetCarPrefab(0, 0, false, false);
-                    car.GetComponent<TimerCheckpoints>().lap = lap;
-                    car.GetComponent<TimerCheckpoints>().checkpointSound = check;
+                    else car = cl.GetCarPrefab(0, 0, false, false); //player
                 }
                 else
                 {
-                    car = cl.GetCarPrefab(Random.Range(0, 7), Random.Range(0, 3), false, true);
+                    car = cl.GetCarPrefab(Random.Range(0, 7), Random.Range(0, 3), false, true); //bot
                 }
                 Instantiate(car, initPos, Quaternion.Euler(initEuler));
             }
@@ -89,18 +87,14 @@ public class SceneLoaded : MonoBehaviour
             if (i == 3)
             {
                 ac.PlaySound("Countdown Go");
-                GameObject[] cars = GameObject.FindGameObjectsWithTag("Car");
+                CarBrain[] cars = GameObject.FindObjectsOfType<CarBrain>();
                 foreach (var car in cars)
                 {
-                    car.GetComponent<PlayerMovement>().controlable = true;
-                    car.GetComponent<Rigidbody>().isKinematic = false;
-                    car.GetComponent<TimerCheckpoints>().StartLap();
+                    car.StartRace();
                 }
-
-
             }
             else ac.PlaySound("Countdown Hold");
-            yield return new WaitForSeconds(.8f);
+            yield return new WaitForSeconds(.9f);
         }
         image.gameObject.SetActive(false);
     }

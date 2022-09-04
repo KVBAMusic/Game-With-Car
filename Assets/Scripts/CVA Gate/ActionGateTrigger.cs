@@ -2,10 +2,9 @@ using UnityEngine;
 using UnityEngine.VFX;
 using System;
 
-public class CVATrigger : MonoBehaviour
+public class ActionGateTrigger : MonoBehaviour
 {
-    Rigidbody rb;
-    PlayerMovement pm;
+    CarBrain car;
     Vector3 euler;
     bool active;
     Transform temp;
@@ -17,15 +16,14 @@ public class CVATrigger : MonoBehaviour
 
     private void Awake()
     {
+        car = GetComponent<CarBrain>();
         input = FindObjectOfType<GlobalInputs>();
     }
 
     void Start()
     {
         ct = FindObjectOfType<CameraTarget>();
-        rb = GetComponent<Rigidbody>();
         ac = FindObjectOfType<AudioController>();
-        pm = GetComponent<PlayerMovement>();
         input.input.Player.Reset.performed += ctx => ResetCar();
     }
 
@@ -35,14 +33,14 @@ public class CVATrigger : MonoBehaviour
         if (active)
         {
             transform.rotation = Quaternion.Lerp(transform.rotation, temp.rotation, Time.fixedDeltaTime * 2.5f);
-            rb.velocity = 50 * temp.forward;
-            rb.angularVelocity = Vector3.zero;
+            car.CRigidbody.velocity = 50 * temp.forward;
+            car.CRigidbody.angularVelocity = Vector3.zero;
         }
     }
 
     public void BoostGateHit(Transform t, Vector3 e)
     {
-        if (!pm.isAI) ac.PlaySound("CVA");
+        if (!car.IsAI) ac.PlaySound("CVA");
         effect.Play();
         euler = e + new Vector3(0, 90, 0);
         temp = t;
@@ -53,20 +51,20 @@ public class CVATrigger : MonoBehaviour
 
     public void AGGateHit(bool activate, GameObject vfx)
     {
-        pm.isOnAntigrav = activate;
+        car.CMovement.isOnAntigrav = activate;
         vfx.transform.position = transform.position;
         var burst = vfx.GetComponent<VisualEffect>();
         burst.Play();
-        rb.velocity *= 1.1f;
-        if (!pm.isAI) ac.PlaySound("AG");
+        car.CRigidbody.velocity *= 1.1f;
+        if (!car.IsAI) ac.PlaySound("AG");
     }
 
     public void TeleportGateHit(Transform dest)
     { 
         transform.position = dest.position;
         transform.rotation = dest.rotation;
-        rb.velocity = 40 * dest.forward;
-        if (!pm.isAI)
+        car.CRigidbody.velocity = 40 * dest.forward;
+        if (!car.IsAI)
         {
             ct.gameObject.transform.rotation = dest.rotation;
             ct.targetRotation = dest.rotation;
