@@ -24,7 +24,7 @@ public class ActionGateTrigger : MonoBehaviour
     {
         ct = FindObjectOfType<CameraTarget>();
         ac = FindObjectOfType<AudioController>();
-        input.input.Player.Reset.performed += ctx => ResetCar();
+        car.OnReset += Reset;
     }
 
     private void FixedUpdate()
@@ -97,7 +97,7 @@ public class ActionGateTrigger : MonoBehaviour
         }
     }
 
-    public void ResetCar()
+    public void Reset(object sender, EventArgs e)
     {
         if (effect != null && active) effect.Stop();
         active = false;

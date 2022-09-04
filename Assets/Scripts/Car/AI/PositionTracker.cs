@@ -5,8 +5,13 @@ using UnityEngine;
 public class PositionTracker : MonoBehaviour, ICarComponent
 {
     CarBrain car;
-    public int lap, checkpoint, botCheckpoint;
+    public int lap; 
+    public int checkpoint; 
+    public int currentPath;
+    public int pointOnPath;
     public float distance;
+
+    public Vector3 WorldPointOnPath => car.Path.GetPoint(pointOnPath);
 
     public int place { get;  set; }
     // Start is called before the first frame update
@@ -29,7 +34,8 @@ public class PositionTracker : MonoBehaviour, ICarComponent
     {
         lap = 1;
         checkpoint = 0;
-        botCheckpoint = 0;
+        currentPath = 1;
+        pointOnPath = 0;
     }
 
     public void StartRace(object sender, EventArgs e)
@@ -45,11 +51,16 @@ public class PositionTracker : MonoBehaviour, ICarComponent
     // Update is called once per frame
     void Update()
     {
-        lap = car.CPosition.lap;
-        checkpoint = car.CPosition.checkpoint;
-        botCheckpoint = car.CMovement.botCheckpoint;
-        int nextCheckpoint = (botCheckpoint + 1) % car.CMovement.positionCheckpoints.Length;
-        distance = Vector3.Distance(transform.position, car.CMovement.positionCheckpoints[nextCheckpoint].checkpoint.position);
+        var currentPoint = car.Path.GetPoint(pointOnPath);
+        distance = (currentPoint - transform.position).magnitude;
+        if (distance < 40)
+        {
+            int nextIdx = (pointOnPath + 1) % car.Path.NumPoints;
+            if (nextIdx > pointOnPath)
+            {
+                pointOnPath = nextIdx;
+            }
+        }
     }
 
     public void Reset(object sender, EventArgs e)

@@ -47,12 +47,11 @@ public class CarBrain : MonoBehaviour
     //called when spawning a car (see CarLoader class)
     public void Init(bool isAI, bool isInMenu, CarStats stats)
     {
-        Debug.Log($"init {gameObject.name} {isAI}");
         IsAI = isAI;
         _playerMovement.stats = stats;
         _playerMovement.controlable = false;
         _rigidbody.useGravity = isInMenu;
-        _rigidbody.isKinematic = isInMenu;
+        _rigidbody.isKinematic = !isInMenu;
         _gateTrigger.enabled = !isInMenu;
         _engineSound.enabled = !isInMenu;
         _posTracker.enabled = !isInMenu;
@@ -62,21 +61,19 @@ public class CarBrain : MonoBehaviour
         _aiController.enabled = !isInMenu && isAI;
     }
 
-    public void ResetCar() =>
+    public void ResetCar() 
+    {
+        ResetPath();
         OnReset?.Invoke(this, EventArgs.Empty);
+    }
 
     public void RespawnCar() =>
         OnRespawn?.Invoke(this, EventArgs.Empty);
 
     void Start()
     {
-        // firstPath = GameObject.FindGameObjectWithTag("First Path").GetComponent<PathCreator>().path;
-        try //TODO: remove the try catch after you've implemented bezier curves
-        {
-            firstPath = GameObject.FindGameObjectWithTag("First Path").GetComponent<PathCreator>().path;            
-        }
-        catch (NullReferenceException) {}
-        UpdatePath(firstPath);
+        firstPath = GameObject.FindGameObjectWithTag("First Path").GetComponent<PathCreator>().path;
+        ResetPath();
         gInputs = FindObjectOfType<GlobalInputs>();
         switch (gameMode)
         {
@@ -89,6 +86,8 @@ public class CarBrain : MonoBehaviour
                 gInputs.input.Player.Reset.performed += ctx => ResetCar();
                 break;
         }
+
+        _lapTracker.OnLapStarted += NextLap;
     }
 
     public void StartRace()
@@ -96,6 +95,11 @@ public class CarBrain : MonoBehaviour
         _playerMovement.controlable = true;
         _rigidbody.isKinematic = false;
         _lapTracker.StartRace();
+    }
+
+    void NextLap(object sender, EventArgs e)
+    {
+        ResetPath();
     }
 
     public void UpdatePath(VertexPath path)

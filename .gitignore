@@ -46,6 +46,7 @@ ExportedObj/
 *.opendb
 *.VC.db
 
+*.vsconfig
 *.rar
 *.zip
 *.7z

@@ -52,24 +52,11 @@ public class PlayerMovement : MonoBehaviour
     Pause pause;
 
     SceneLoaded carLoader;
-    public AICheckpoint[] positionCheckpoints;
-    public int botCheckpoint = 0;
     float resetTimer;
-
-    
 
     private void Awake()
     {
         car = GetComponent<CarBrain>();
-        try
-        {
-            positionCheckpoints = GameObject.Find("Bot checkpoints").GetComponent<AICheckpoints>().checkpoints;
-        }
-        catch (NullReferenceException)
-        {
-            Debug.LogWarning("No bot checkpoints in this scene.");
-            return;
-        }
 
         try
         {
@@ -356,7 +343,6 @@ public class PlayerMovement : MonoBehaviour
                         controlable = false;
                         engineSound.pitch = 1;
                         carLoader.StartCoroutine(carLoader.ResetCountDown());
-                        botCheckpoint = 0;
                         transform.SetPositionAndRotation(startPosition, startRotation);
                     }
                     else
@@ -373,22 +359,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (car.gameMode == Constants.GameMode.SingleRace)
         {
-            if (other.gameObject.CompareTag("Start") && car.CPosition.checkpoint == 3)
-            {
-                botCheckpoint = -1;
-            }
-            else
-            {
-                for (int i = 0; i < positionCheckpoints.Length; i++)
-                {
-                    if (other.transform == positionCheckpoints[i].checkpoint)
-                    {
-                        botCheckpoint = i;
-                        respawnPosition = transform.position;
-                        respawnRotation = transform.rotation;
-                    }
-                }
-            }
+                respawnPosition = transform.position;
+                respawnRotation = transform.rotation;
         }
     }
 

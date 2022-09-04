@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using PathCreation;
 
 /// <summary>
 /// Based on tutorial by EYEmaginary
@@ -8,9 +9,9 @@ using UnityEngine;
 /// </summary>
 public class BetterCarAIController : MonoBehaviour
 {
+    CarBrain car;
     private const bool debug = true;
 
-    [HideInInspector] public Transform path;
     [Header("Navigation")]
     public float waypointDistanceThreshold = 0.1f;
     public float dotProductReverseThreshold = 0;
@@ -24,11 +25,8 @@ public class BetterCarAIController : MonoBehaviour
     public float sensorSideAngle = 30;
     [HideInInspector] public PlayerMovement pm;
 
-    private List<Transform> nodes = new();
-    private int currentNode = 0;
     readonly int trackLayerMask = 1 << 7;
     readonly int fullLayerMask = (1 << 6) + (1 << 7);
-    Rigidbody rb;
 
     float steerAmount;
     float driveAmount;
@@ -39,33 +37,7 @@ public class BetterCarAIController : MonoBehaviour
 
     private void Awake()
     {
-        try 
-        { 
-            path = GameObject.Find("Path").transform;
-        }
-        catch(NullReferenceException)
-        {
-            path = null;
-        }
-        rb = GetComponent<Rigidbody>();
-    }
-
-    void Start()
-    {
-        // Get all the nodes in the path
-        if (path != null)
-        {
-            Transform[] pathTransforms = path.GetComponentsInChildren<Transform>();
-            nodes = new();
-
-            for (int i = 0; i < pathTransforms.Length; i++)
-            {
-                if (pathTransforms[i] != path.transform)
-                {
-                    nodes.Add(pathTransforms[i]);
-                }
-            }
-        }
+        car = GetComponent<CarBrain>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -84,23 +56,14 @@ public class BetterCarAIController : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmosSelected()
-    {
-        if (path != null)
-        {
-            DebugLines(); 
-        }
-    }
-
     private void FixedUpdate()
     {
-        if (path != null)
+        if (car.Path != null)
         {
-            localVelocity = transform.InverseTransformDirection(rb.velocity).z;
+            localVelocity = transform.InverseTransformDirection(car.CRigidbody.velocity).z;
             steerAmount = ApplySteer();
             driveAmount = Drive();
             steerAmount = Mathf.Clamp(steerAmount + Sensors(), -1, 1);
-            CheckWaypoints();
             pm.SetAxisAI(driveAmount, steerAmount);
         }
     }
@@ -192,38 +155,25 @@ public class BetterCarAIController : MonoBehaviour
     void DebugLines()
     {
         Gizmos.color = Color.yellow;
-        Gizmos.DrawLine(transform.position, nodes[currentNode].position);
+        Gizmos.DrawLine(transform.position, car.CPosition.WorldPointOnPath);
     }
 
     float ApplySteer()
     {
-        Vector3 relativeVector = (transform.InverseTransformPoint(nodes[currentNode].position)).normalized;
+        Vector3 relativeVector = (transform.InverseTransformPoint(car.CPosition.WorldPointOnPath)).normalized;
         return Mathf.Clamp(relativeVector.x * turnSmoothingAmount, -1, 1);
     }
 
     float Drive()
     {
         float output = 0;
-        Vector3 dir = (nodes[currentNode].position - transform.position).normalized;
+        Vector3 dir = (car.CPosition.WorldPointOnPath - transform.position).normalized;
         float dot = Vector3.Dot(transform.forward, dir);
         output = dot >= dotProductReverseThreshold ? 1 : -1;
-        if (Mathf.Abs(transform.InverseTransformDirection(rb.velocity).z) > brakingZoneMaxSpeed  / 3.6f && brakingZoneMaxSpeed > 0)
+        if (Mathf.Abs(transform.InverseTransformDirection(car.CRigidbody.velocity).z) > brakingZoneMaxSpeed  / 3.6f && brakingZoneMaxSpeed > 0)
         {
             output *= -1;
         }
         return output;
-    }
-
-    void CheckWaypoints()
-    {
-        if (Vector3.Distance(transform.position, nodes[currentNode].position) < waypointDistanceThreshold)
-        {
-            currentNode = (currentNode + 1) % nodes.Count;
-        }
-    }
-
-    public void ResetCar()
-    {
-        currentNode = 0;
     }
 }
