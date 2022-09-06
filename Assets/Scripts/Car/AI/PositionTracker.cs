@@ -25,7 +25,6 @@ public class PositionTracker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log($"{gameObject.name}\tPlace: {LockedPlace}\tLap: {lap}\tCP: {checkpoint}\tPath: {currentPath}\tPoint: {pointOnPath}\tDist: {distance}");
         distance = (WorldPointOnPath - transform.position).magnitude;
         if (distance <= 40)
         {

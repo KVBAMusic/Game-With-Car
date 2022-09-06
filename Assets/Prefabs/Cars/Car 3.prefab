@@ -501,7 +501,7 @@ MonoBehaviour:
   _uiController: {fileID: -3465948109448904964}
   _speedIndicator: {fileID: 7080461561706610428}
   _engineSound: {fileID: 2971902172581461328}
-  IsAI: 1
+  IsAI: 0
 --- !u!54 &7080461561706610402
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -541,7 +541,7 @@ MonoBehaviour:
   body: {fileID: 1820650971023421264}
   allWheels: {fileID: 7080461561668509409}
   driftAngle: 20
-  stats: {fileID: 11400000, guid: c64c9e183f12a8649a141e471960ebbe, type: 2}
+  stats: {fileID: 11400000, guid: 5f49353801118374ab2f8c697d2b9134, type: 2}
   accelRate: 1
   trr: {fileID: 1987146779494607981}
   trl: {fileID: 8906077623434707273}
@@ -559,7 +559,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7080461561706610400}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38b673703e7bebc429376cf5466712ec, type: 3}
   m_Name: 
@@ -638,7 +638,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7080461561706610400}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ae36fdc1989a7148aac581536517902, type: 3}
   m_Name: 
