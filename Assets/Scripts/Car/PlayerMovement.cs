@@ -158,6 +158,12 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+        // Set the respawn point to the previous point on path
+        var respawnIdx = Math.Clamp(car.CPosition.pointOnPath - 1, 0, car.Path.NumPoints - 1);
+        respawnPosition = car.Path.GetPoint(respawnIdx);
+        var t = car.Path.GetClosestTimeOnPath(respawnPosition);
+        respawnRotation = car.Path.GetRotation(t) * Quaternion.Euler(0, 0, 90);
+
         // If bot is barely moving for 3 seconds, reset its position.
         if (car.IsAI)
         {
@@ -351,16 +357,6 @@ public class PlayerMovement : MonoBehaviour
                     }
                 }
             }
-        }
-    }
-
-    // Used in Single Race mode
-    private void OnTriggerEnter(Collider other)
-    {
-        if (car.gameMode == Constants.GameMode.SingleRace)
-        {
-                respawnPosition = transform.position;
-                respawnRotation = transform.rotation;
         }
     }
 
