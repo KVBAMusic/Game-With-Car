@@ -19,15 +19,25 @@ public class PositionTracker : MonoBehaviour
     void Awake()
     {
         car = GetComponent<CarBrain>();
+        car.CLapTracker.OnLapStarted += NextLap;
     }
 
     // Update is called once per frame
+    void Update()
+    {
+        Debug.Log($"{gameObject.name}\tPlace: {LockedPlace}\tLap: {lap}\tCP: {checkpoint}\tPath: {currentPath}\tPoint: {pointOnPath}\tDist: {distance}");
+    }
+
+    void NextLap(object sender, EventArgs e)
+    {
+        pointOnPath = 0;
+    }
+
     void LateUpdate()
     {
         lap = car.CLapTracker.CurrentLap;
         checkpoint = car.CLapTracker.Checkpoint;
-        currentPath = car.CLapTracker.CurrnetPath;
-        pointOnPath = car.CLapTracker.PointOnPath;
+        currentPath = car.CLapTracker.CurrentPath;
 
         if (checkpoint != 4) 
             LockedPlace = place;

@@ -13,8 +13,7 @@ public class CarLapTracker : MonoBehaviour
 
     public int CurrentLap {get; private set;}
     public int Checkpoint {get; private set;}
-    public int CurrnetPath {get; private set;}
-    public int PointOnPath {get; private set;}
+    public int CurrentPath {get; private set;}
 
     void Awake()
     {
@@ -26,8 +25,7 @@ public class CarLapTracker : MonoBehaviour
     void Init()
     {
         CurrentLap = 1;
-        CurrnetPath = 1;
-        PointOnPath = 1;
+        CurrentPath = 1;
         Checkpoint = 0;
     }
 
@@ -41,7 +39,7 @@ public class CarLapTracker : MonoBehaviour
     {
         Checkpoint = 1;
         CurrentLap++;
-        CurrnetPath = 1;
+        CurrentPath = 1;
         car.ResetPath();
 
         OnLapStarted?.Invoke(this, EventArgs.Empty);
