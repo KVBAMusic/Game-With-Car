@@ -12,20 +12,30 @@ public class CalculatePosition : MonoBehaviour
     {
         trackers = FindObjectsOfType<PositionTracker>();
         final = new PositionTracker[trackers.Length];
+        StartCoroutine(nameof(Reorder));
     }
 
     // Update is called once per frame
-    void Update()
+    IEnumerator Reorder()
     {
-        final = trackers.OrderBy(tracker => tracker.distance)
+        while (true)
+        {
+            final = trackers.OrderBy(tracker => tracker.distance)
                 .OrderByDescending(tracker => tracker.pointOnPath)
                 .OrderByDescending(tracker => tracker.currentPath)
                 .OrderByDescending(tracker => tracker.checkpoint)
                 .OrderByDescending(tracker => tracker.lap).ToArray();
 
-        for(int i = 0; i < final.Length; i++)
-        {
-            final[i].place = i + 1;
+            for(int i = 0; i < final.Length; i++)
+            {
+                final[i].place = i + 1;
+            }
+            yield return new WaitForSecondsRealtime(.05f);
         }
+    }
+
+    void OnDestroy()
+    {
+        StopCoroutine(nameof(Reorder));
     }
 }

@@ -25,8 +25,6 @@ public class CarTimer : MonoBehaviour, ICarComponent
         car.CLapTracker.OnCheckpointReached += CheckpointReached;
         car.CLapTracker.OnRaceEnd += EndRace;
         timerB = FindObjectOfType<TimerBehaviour>();
-
-        Debug.Log(car.IsAI);
     }
 
     void Start()
@@ -73,6 +71,7 @@ public class CarTimer : MonoBehaviour, ICarComponent
         if (!car.IsAI)
         {
             timerB.timer.Start();
+            car.CUIController.StartRace();
         }
     }
 
@@ -88,8 +87,9 @@ public class CarTimer : MonoBehaviour, ICarComponent
 
     void StoreSectorTime()
     {
-        int cp = car.CPosition.checkpoint - 1;  // offset by 1 coz of script execution order
-        float prevSector = cp switch            // checkpoint is updated before this method is called
+        int cp = car.CPosition.checkpoint;
+        Debug.Log(cp);
+        float prevSector = cp switch
         {
             1 => 0f,                            
             2 => sector1Time,                   
@@ -97,7 +97,7 @@ public class CarTimer : MonoBehaviour, ICarComponent
             _ => float.NaN
         };
 
-        float hsSectorTime = hm.GetHighscore(currentScene)[cp - 1];
+        float hsSectorTime = hm.GetHighscore(currentScene)[cp];
         float sectorTime = timerB.timer.time - prevSector;
 
         switch (cp)
@@ -123,21 +123,26 @@ public class CarTimer : MonoBehaviour, ICarComponent
 
     public void EndRace(object sender, EventArgs e)
     {
-        if (!car.IsAI) afterRace.SetActive(true);
-        if (!car.CMovement.isInPractice && car.gameMode == Constants.GameMode.TimeAttack && !car.IsAI)
+        if (!car.IsAI) 
         {
-            StoreSectorTime();
-            bool isHS = hm.CheckForHighscore(totalLapTime, sector1Time, sector2Time, sector3Time);
-            if (isHS && PlayerPrefs.HasKey("username"))
+            afterRace.SetActive(true);
+            car.CUIController.EndRace();
+            if (!car.CMovement.isInPractice && car.gameMode == Constants.GameMode.TimeAttack)
             {
-                leaderboardTime.GetComponent<Text>().enabled = true;
-                if (Constants.isTestBuild)
+                timerB.timer.Stop();
+                StoreSectorTime();
+                bool isHS = hm.CheckForHighscore(totalLapTime, sector1Time, sector2Time, sector3Time);
+                if (isHS && PlayerPrefs.HasKey("username"))
                 {
-                    car.CUIController.timerUI.UpdateText("You cannot send times to the leaderboard in test build.", ref car.CUIController.timerUI.leaderboardStatus);
-                }
-                else
-                {
-                    leaderboardTime.GetComponent<LeaderboardSend>().Send();
+                    leaderboardTime.GetComponent<Text>().enabled = true;
+                    if (Constants.isTestBuild)
+                    {
+                        car.CUIController.timerUI.UpdateText("You cannot send times to the leaderboard in test build.", ref car.CUIController.timerUI.leaderboardStatus);
+                    }
+                    else
+                    {
+                        leaderboardTime.GetComponent<LeaderboardSend>().Send();
+                    }
                 }
             }
         }

@@ -532,6 +532,7 @@ MonoBehaviour:
   _uiController: {fileID: 7018499122164451478}
   _speedIndicator: {fileID: 1141521213214123648}
   _engineSound: {fileID: 4061621597736398561}
+  IsAI: 1
 --- !u!54 &4762037224348586205
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -571,7 +572,7 @@ MonoBehaviour:
   body: {fileID: 1820650971023421264}
   allWheels: {fileID: 7080461561668509409}
   driftAngle: 20
-  stats: {fileID: 11400000, guid: 5f49353801118374ab2f8c697d2b9134, type: 2}
+  stats: {fileID: 11400000, guid: 06f7faf3b4cc3424b93d541e572f5c5d, type: 2}
   accelRate: 1
   trr: {fileID: 1646900707871765874}
   trl: {fileID: 2255202351956969067}
@@ -582,8 +583,6 @@ MonoBehaviour:
   isInPractice: 0
   currentCheckpoint: 0
   engineSound: {fileID: 4061621597736398561}
-  positionCheckpoints: []
-  botCheckpoint: 0
 --- !u!114 &-5469235910954866192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -596,7 +595,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b673703e7bebc429376cf5466712ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path: {fileID: 0}
   waypointDistanceThreshold: 40
   dotProductReverseThreshold: -0.2
   turnSmoothingAmount: 2.8
@@ -636,7 +634,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lap: 0
   checkpoint: 0
-  botCheckpoint: 0
+  currentPath: 0
+  pointOnPath: 0
   distance: 0
 --- !u!114 &-3083251879458413215
 MonoBehaviour:
@@ -670,7 +669,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7080461561706610400}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ae36fdc1989a7148aac581536517902, type: 3}
   m_Name: 

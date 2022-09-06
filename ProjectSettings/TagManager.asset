@@ -21,6 +21,7 @@ TagManager:
   - Teleport
   - Bot Checkpoint
   - Braking Zone
+  - First Path
   layers:
   - Default
   - TransparentFX

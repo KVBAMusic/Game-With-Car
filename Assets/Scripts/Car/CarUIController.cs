@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class CarUIController : MonoBehaviour, ICarComponent
+public class CarUIController : MonoBehaviour
 {
     CarBrain car;
     public TimerUIUpdate timerUI;
@@ -11,10 +11,6 @@ public class CarUIController : MonoBehaviour, ICarComponent
     void Awake()
     {
         car = GetComponent<CarBrain>();
-        car.CLapTracker.OnFinalLapStarted += OnFinalLap;
-        car.OnReset += Reset;
-        car.CLapTracker.OnRaceEnd += EndRace;
-        car.CLapTracker.OnRaceEnd += StartRace;
 
         timerUI = FindObjectOfType<TimerUIUpdate>();
         pause = FindObjectOfType<Pause>();
@@ -62,10 +58,10 @@ public class CarUIController : MonoBehaviour, ICarComponent
 
     void OnFinalLap(object sender, EventArgs e)
     {
-        timerUI.SetActiveForTime(3, ref timerUI.finalLap);
+        if (!car.IsAI) timerUI.SetActiveForTime(3, ref timerUI.finalLap);
     }
 
-    public void StartRace(object sender, EventArgs e)
+    public void StartRace()
     {
         if (!car.IsAI)
         {
@@ -74,20 +70,9 @@ public class CarUIController : MonoBehaviour, ICarComponent
         }
     }
 
-    public void NewLap(object sender, EventArgs e)
-    {
-        throw new NotImplementedException();
-    }
-
-    public void CheckpointReached(object sender, EventArgs e)
-    {
-        throw new NotImplementedException();
-    }
-
     public void DisplaySectorTime()
     {
-        int cp = car.CPosition.checkpoint - 1;
-        Debug.Log(cp);
+        int cp = car.CPosition.checkpoint;
         var textObject = cp switch
         {
             1 => timerUI.timeS1,
@@ -107,7 +92,7 @@ public class CarUIController : MonoBehaviour, ICarComponent
 
     public void DisplaySectorDifference(float difference)
     {
-        int cp = car.CPosition.checkpoint - 1;
+        int cp = car.CPosition.checkpoint;
         var textDiffObject = cp switch
         {
             1 => timerUI.timeDiffS1,
@@ -124,13 +109,16 @@ public class CarUIController : MonoBehaviour, ICarComponent
         timerUI.SetActive(true, ref textDiffObject);
     }
 
-    public void EndRace(object sender, EventArgs e)
+    public void EndRace()
     {
-        timerUI.UpdateTextColour(Color.green, ref timerUI.time);
-        timerUI.UpdateTextColour(Color.green, ref timerUI.position);
+        if (!car.IsAI)
+        {
+            timerUI.UpdateTextColour(Color.green, ref timerUI.time);
+            timerUI.UpdateTextColour(Color.green, ref timerUI.position);
+        }
     }
 
-    public void Reset(object sender, EventArgs e)
+    public void Reset()
     {
         timerUI.SetActive(false, ref timerUI.leaderboardStatus);
         timerUI.UpdateText("Sending record data...", ref timerUI.leaderboardStatus);
