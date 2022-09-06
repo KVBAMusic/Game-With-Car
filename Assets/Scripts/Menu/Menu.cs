@@ -10,8 +10,8 @@ public class Menu : MonoBehaviour
 
     private void Start()
     {
-        laps.value = PlayerPrefs.HasKey("Laps") ? PlayerPrefs.GetFloat("Laps") : 3;
-        bots.value = PlayerPrefs.HasKey("Bots") ? PlayerPrefs.GetFloat("Bots") : 7;
+        laps.value = PlayerPrefs.HasKey("Laps") ? PlayerPrefs.GetInt("Laps") : 3;
+        bots.value = PlayerPrefs.HasKey("Bots") ? PlayerPrefs.GetInt("Bots") : 7;
         laps_d.text = laps.value.ToString();
         bots_d.text = bots.value.ToString();
 
@@ -19,8 +19,8 @@ public class Menu : MonoBehaviour
 
         Time.timeScale = 1;
 
-        if (!PlayerPrefs.HasKey("Bots")) PlayerPrefs.SetFloat("Bots", 7);
-        if (!PlayerPrefs.HasKey("Laps")) PlayerPrefs.SetFloat("Laps", 3);
+        if (!PlayerPrefs.HasKey("Bots")) PlayerPrefs.SetInt("Bots", 7);
+        if (!PlayerPrefs.HasKey("Laps")) PlayerPrefs.SetInt("Laps", 3);
 
         laps.onValueChanged.AddListener(delegate { SetLaps(); });
         bots.onValueChanged.AddListener(delegate { SetBots(); });

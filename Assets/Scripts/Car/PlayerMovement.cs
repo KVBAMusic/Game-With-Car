@@ -57,7 +57,8 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         car = GetComponent<CarBrain>();
-
+        car.OnReset += Reset;
+        car.OnRespawn += Respawn;
         try
         {
             pause = FindObjectOfType<Pause>();
@@ -321,6 +322,16 @@ public class PlayerMovement : MonoBehaviour
             fr.steerAngle += maxSteerAngle * driftDirection * 1.25f;
             fl.steerAngle += maxSteerAngle * driftDirection * 1.25f;
         }
+    }
+
+    void Reset(object sender, EventArgs e)
+    {
+        ResetCar(true);
+    }
+
+    void Respawn(object sender, EventArgs e)
+    {
+        ResetCar(false);
     }
 
     public void ResetCar(bool fullReset = false)
