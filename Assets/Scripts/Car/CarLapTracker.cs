@@ -51,6 +51,7 @@ public class CarLapTracker : MonoBehaviour
 
     void EndRace() 
     {
+        Checkpoint = 4;
         OnRaceEnd?.Invoke(this, EventArgs.Empty);
     }
 

@@ -11,6 +11,7 @@ public class CarUIController : MonoBehaviour
     void Awake()
     {
         car = GetComponent<CarBrain>();
+        car.CLapTracker.OnFinalLapStarted += OnFinalLap;
 
         timerUI = FindObjectOfType<TimerUIUpdate>();
         pause = FindObjectOfType<Pause>();
@@ -50,7 +51,7 @@ public class CarUIController : MonoBehaviour
             {
                 timerUI.UpdateText(Constants.FormatTime(car.CTimer.GetCurrentTime()), ref timerUI.time);
                 timerUI.UpdateText($"Current lap\n{Mathf.Clamp(car.CPosition.lap, 1, car.NumLaps)}/{car.NumLaps}", ref timerUI.currentLap);
-                timerUI.UpdateText($"{car.CPosition.place}/{PlayerPrefs.GetInt("Bots") + 1}", ref timerUI.position);
+                timerUI.UpdateText($"{car.CPosition.LockedPlace}/{PlayerPrefs.GetInt("Bots") + 1}", ref timerUI.position);
             }
             Cursor.visible = (car.CPosition.checkpoint == 4 || pause.paused);
         }

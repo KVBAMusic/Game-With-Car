@@ -530,7 +530,7 @@ MonoBehaviour:
       globalNormalsAngle: 0
       flipNormals: 0
     vertexPathUpToDate: 1
-    vertexPathMaxAngleError: 4
+    vertexPathMaxAngleError: 3
     vertexPathMinVertexSpacing: 0.01
     showTransformTool: 1
     showPathBounds: 0
@@ -548,7 +548,7 @@ MonoBehaviour:
     showVertexPathOptions: 1
     showNormals: 0
     showNormalsHelpInfo: 0
-    tabIndex: 0
+    tabIndex: 1
   initialized: 1
 --- !u!115 &986285010
 MonoScript:
@@ -916,43 +916,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2004375966, guid: 177f654ca0b974f4e9a997cc3b90e6fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.89
+      value: -24.877127
       objectReference: {fileID: 0}
     - target: {fileID: 2004375966, guid: 177f654ca0b974f4e9a997cc3b90e6fa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 25.19
+      value: 25.19185
       objectReference: {fileID: 0}
     - target: {fileID: 2004375966, guid: 177f654ca0b974f4e9a997cc3b90e6fa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.94
+      value: -6.033426
       objectReference: {fileID: 0}
     - target: {fileID: 2004375966, guid: 177f654ca0b974f4e9a997cc3b90e6fa, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9912183
+      value: 0.994554
       objectReference: {fileID: 0}
     - target: {fileID: 2004375966, guid: 177f654ca0b974f4e9a997cc3b90e6fa, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0038186363
+      value: 0.02241269
       objectReference: {fileID: 0}
     - target: {fileID: 2004375966, guid: 177f654ca0b974f4e9a997cc3b90e6fa, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.10943011
+      value: -0.07102065
       objectReference: {fileID: 0}
     - target: {fileID: 2004375966, guid: 177f654ca0b974f4e9a997cc3b90e6fa, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.07413956
+      value: -0.072912216
       objectReference: {fileID: 0}
     - target: {fileID: 2004375966, guid: 177f654ca0b974f4e9a997cc3b90e6fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.496
+      value: 1.961
       objectReference: {fileID: 0}
     - target: {fileID: 2004375966, guid: 177f654ca0b974f4e9a997cc3b90e6fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -12.563
+      value: -8.315
       objectReference: {fileID: 0}
     - target: {fileID: 2004375966, guid: 177f654ca0b974f4e9a997cc3b90e6fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -8.501
+      value: -8.528
       objectReference: {fileID: 0}
     - target: {fileID: 2044129693, guid: 177f654ca0b974f4e9a997cc3b90e6fa, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -972,7 +972,7 @@ PrefabInstance:
       objectReference: {fileID: 2034255395}
     - target: {fileID: 1225517550160109572, guid: 177f654ca0b974f4e9a997cc3b90e6fa, type: 3}
       propertyPath: m_Intensity
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1225517550202173624, guid: 177f654ca0b974f4e9a997cc3b90e6fa, type: 3}
       propertyPath: m_LocalPosition.x

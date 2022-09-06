@@ -30,7 +30,7 @@ public class CalculatePosition : MonoBehaviour
             {
                 final[i].place = i + 1;
             }
-            yield return new WaitForSecondsRealtime(.05f);
+            yield return new WaitForSecondsRealtime(.1f);
         }
     }
 

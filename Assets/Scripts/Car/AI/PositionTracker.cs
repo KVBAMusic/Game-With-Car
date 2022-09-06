@@ -26,22 +26,6 @@ public class PositionTracker : MonoBehaviour
     void Update()
     {
         Debug.Log($"{gameObject.name}\tPlace: {LockedPlace}\tLap: {lap}\tCP: {checkpoint}\tPath: {currentPath}\tPoint: {pointOnPath}\tDist: {distance}");
-    }
-
-    void NextLap(object sender, EventArgs e)
-    {
-        pointOnPath = 0;
-    }
-
-    void LateUpdate()
-    {
-        lap = car.CLapTracker.CurrentLap;
-        checkpoint = car.CLapTracker.Checkpoint;
-        currentPath = car.CLapTracker.CurrentPath;
-
-        if (checkpoint != 4) 
-            LockedPlace = place;
-
         distance = (WorldPointOnPath - transform.position).magnitude;
         if (distance <= 40)
         {
@@ -51,5 +35,18 @@ public class PositionTracker : MonoBehaviour
                 pointOnPath = nextIdx;
             }
         }
+        lap = car.CLapTracker.CurrentLap;
+        checkpoint = car.CLapTracker.Checkpoint;
+        currentPath = car.CLapTracker.CurrentPath;
+
+        if (checkpoint != 4) 
+            LockedPlace = place;
+
+        Debug.DrawLine(transform.position, WorldPointOnPath, Color.yellow);
+    }
+
+    void NextLap(object sender, EventArgs e)
+    {
+        pointOnPath = 0;
     }
 }
