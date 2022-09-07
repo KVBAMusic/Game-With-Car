@@ -88,7 +88,6 @@ public class CarTimer : MonoBehaviour, ICarComponent
     void StoreSectorTime()
     {
         int cp = car.CPosition.checkpoint;
-        Debug.Log(cp);
         float prevSector = cp switch
         {
             1 => 0f,                            

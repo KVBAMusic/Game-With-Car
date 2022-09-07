@@ -59,6 +59,21 @@ public class CarBrain : MonoBehaviour
         _lapTracker.enabled = !isInMenu;
         _uiController.enabled = !(isInMenu || isAI);
         _aiController.enabled = !isInMenu && isAI;
+        if (isAI)
+        {
+            gInputs = FindObjectOfType<GlobalInputs>();
+            switch (gameMode)
+            {
+                default:
+                    break;
+                case Constants.GameMode.SingleRace:
+                    gInputs.input.Player.Reset.performed += ctx => RespawnCar();
+                    break;
+                case Constants.GameMode.TimeAttack:
+                    gInputs.input.Player.Reset.performed += ctx => ResetCar();
+                    break;
+            }
+        }
     }
 
     public void ResetCar() 
@@ -74,19 +89,6 @@ public class CarBrain : MonoBehaviour
     {
         firstPath = GameObject.FindGameObjectWithTag("First Path").GetComponent<PathCreator>().path;
         ResetPath();
-        gInputs = FindObjectOfType<GlobalInputs>();
-        switch (gameMode)
-        {
-            default:
-                break;
-            case Constants.GameMode.SingleRace:
-                gInputs.input.Player.Reset.performed += ctx => RespawnCar();
-                break;
-            case Constants.GameMode.TimeAttack:
-                gInputs.input.Player.Reset.performed += ctx => ResetCar();
-                break;
-        }
-
         _lapTracker.OnLapStarted += NextLap;
     }
 

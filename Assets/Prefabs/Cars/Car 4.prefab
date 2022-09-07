@@ -146,7 +146,7 @@ MonoBehaviour:
   body: {fileID: 1820650971023421264}
   allWheels: {fileID: 7080461561668509409}
   driftAngle: 20
-  stats: {fileID: 11400000, guid: c64c9e183f12a8649a141e471960ebbe, type: 2}
+  stats: {fileID: 11400000, guid: 06f7faf3b4cc3424b93d541e572f5c5d, type: 2}
   accelRate: 1
   trr: {fileID: 5526399890793711061}
   trl: {fileID: 3639723815976004370}

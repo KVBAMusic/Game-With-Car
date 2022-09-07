@@ -168,7 +168,7 @@ public class PlayerMovement : MonoBehaviour
         // If bot is barely moving for 3 seconds, reset its position.
         if (car.IsAI)
         {
-            if (car.CRigidbody.velocity.magnitude >= 0.1f)
+            if (car.CRigidbody.velocity.magnitude >= 5f)
             {
                 resetTimer = Time.time + 3;
             }
